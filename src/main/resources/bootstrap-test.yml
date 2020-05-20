@@ -1,0 +1,3 @@
+spring:
+  config:
+    location: /opt/data/config/single-test.yml

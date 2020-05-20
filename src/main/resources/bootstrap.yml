@@ -1,0 +1,17 @@
+server:
+  port: 23001
+  servlet:
+    context-path: /single
+spring:
+  profiles:
+    active: dev
+  application:
+    name: single
+
+mybatis:
+  typeAliasesPackage: com.single.platform
+  mapperLocations: classpath*:mapper/**/*Mapper.xml
+
+#knife4j 自定义文档位置
+knife4j:
+  markdowns: doc/*
